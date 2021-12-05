@@ -1,0 +1,5 @@
+name: Items Netheria
+version: '${project.version}'
+main: fr.romdu57.items_netheria.main
+api-version: 1.16
+authors: [ Romdu57 ]
