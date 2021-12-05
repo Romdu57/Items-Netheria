@@ -6,11 +6,11 @@ public final class main extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
+        System.out.println("[Itemps Netheria] Le plugins vient de se lancer !");
     }
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
+        System.out.println("[Items Netheria] Le plugins vient de se fermer !");
     }
 }
