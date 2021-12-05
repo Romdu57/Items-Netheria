@@ -11,6 +11,7 @@ public class items implements Listener {
     public static void dropItems(final Block block, final Collection<ItemStack> items) {
         for (final ItemStack item : items) {
             System.out.println(item);
+            //block.getWorld().dropItem(block.getLocation(), item);
         }
     }
 }
